@@ -3,7 +3,7 @@ import cn from 'classnames'
 import Check from "./Checkbox";
 import {BsTrash} from 'react-icons/bs'
 
-const TodoItem = ({todo, changeTodo, removeTodo }) => {
+const TodoItem = ({ todo, changeTodo, removeTodo }) => {
   return (
     <div className='flex items-center justify-between mb-4 rounded-2xl bg-zinc-800 p-5 w-full'>
         <button className='flex items-center' onClick={() => changeTodo(todo.id)}>

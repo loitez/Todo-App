@@ -6,17 +6,17 @@ const data = [
     {
         id: '1',
         title: 'Finish the essay collaboration',
-        isCompleted: 'false',
+        isCompleted: false,
     },
     {
         id: '2',
         title: 'Read next chapter of the book',
-        isCompleted: 'false',
+        isCompleted: false,
     },
     {
         id: '3',
         title: 'Send the finished assignment',
-        isCompleted: 'false',
+        isCompleted: false,
     }
 ]
 
